@@ -28,11 +28,10 @@ if (!isset($_SESSION["seller_email"])) {
     <section class="hero">
 
         <div>
-            <h1>Discover <br> Restaurants <br>
-                That deliver near You</h1> <br>
-            <p>It is a long established fact that <br> a reader will be distracted by <br> the readable content of a page <br> when looking at it's layout.</p>
+            <h1>Get the best price <br>For your used <br>
+              Car</h1> <br>
 
-            <button  onclick="window.location.href='add_food_item_view.php'">Add new item</button>
+            <button  onclick="window.location.href='add_car_view.php'">Add new item</button>
         </div>
         <div>
         
@@ -41,7 +40,7 @@ if (!isset($_SESSION["seller_email"])) {
 
 
     </section>
-    <?php include "footer_view.php" ?>
+
 
 
 </body>

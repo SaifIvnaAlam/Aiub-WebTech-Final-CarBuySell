@@ -60,7 +60,7 @@ if (!isset($_SESSION["seller_email"])) {
 
                 <div>
                     <!-- Name -->
-                    <label for="rname">Restaurant Name*</label><br>
+                    <label for="rname">Seller Name*</label><br>
                     <input type="text" name="rname" id="rname" value="<?php echo $rname ?>">
                     <p class="error" id="profile_rname_err"></p>
                 </div>

@@ -36,7 +36,7 @@ if (isset($_SESSION["seller_email"])) {
                     }
                 }
                 ?>
-                <h1>Welcome Back Goraghari</h1>
+                <h1>Welcome Back to Goraghari</h1>
 
 
 

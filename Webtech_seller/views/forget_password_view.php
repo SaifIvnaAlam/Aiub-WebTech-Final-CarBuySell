@@ -51,7 +51,7 @@ if (isset($_SESSION["seller_email"])) {
                 ?>
 
                 <!-- Security qus -->
-                <br><label for="sq">Special Food</label>
+                <br><label for="sq">What car do you own?</label>
                 <input type="text" name="sq" id="sq" value="<?php echo isset($_SESSION["sq"]) ? $_SESSION["sq"] : "" ?>">
                 <p class="error" id="fsq_err"></p>
                 <?php
